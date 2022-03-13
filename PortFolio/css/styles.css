@@ -1,0 +1,132 @@
+* {
+    border: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    background-color: rgb(231, 253, 253);
+}
+
+.main {
+    font-size: 6.0rem;
+    font-family: 'Fredoka', sans-serif;
+    color: rgb(67, 196, 196);
+    margin: 0px;
+}
+
+.center {
+    width: 100%;
+    text-align: center;
+}
+
+#navitems {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 15px;
+}
+
+.navlink {
+    text-decoration: none;
+    color: black;
+    font-size: 1.7rem;
+    font-family: 'League Gothic', sans-serif;
+    background-color: rgb(219, 213, 213);
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 9px;
+}
+
+p
+{
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.navlink:hover {
+    color: white;
+    background-color: rgb(70, 64, 64);
+}
+
+.active {
+    color: white;
+    background-color: black;
+}
+
+.nav {
+    padding: 10px;
+}
+
+.navigation {
+    margin-top: 0px;
+    background-color: rgb(204, 199, 199);
+}
+
+li {
+    list-style: none;
+    margin: 0px;
+}
+
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box
+{
+    width: 30%;
+    box-sizing: border-box;
+    margin: 20px 35px;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+img
+{
+    margin: auto;
+    width: 100%;
+    height: 275px;
+    opacity: 1;
+}
+
+.boxtext
+{
+    font-family: 'Fredoka', sans-serif;
+    font-size: 1.6rem;
+}
+
+.imgcontent{
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+h3
+{
+    font-family: 'Fredoka', sans-serif;
+    color: rgb(66, 221, 221);
+    font-size: 2.3rem;
+    margin: 0px;
+    margin-top: 30px;
+}
+
+.foot
+{
+    font-size: 1rem;
+    margin: 0px;
+}
+
+footer
+{
+    margin-top: 45px;
+    background-color: black;
+    color: white;
+}
+
+a
+{
+    text-decoration: none;
+}
