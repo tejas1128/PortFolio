@@ -5,7 +5,7 @@
 
 body {
     margin: 0px;
-    position: relative;
+    /* position: relative; */
     background-color: rgb(231, 253, 253);
 }
 
@@ -48,6 +48,7 @@ body {
 .active {
     color: white;
     background-color: black;
+    padding: 15px;
 }
 
 .nav {
@@ -79,22 +80,19 @@ p {
 .box {
     width: 30%;
     box-sizing: border-box;
-    margin: 10px 35px;
+    margin: 0px 35px;
     padding: 20px;
-    background-color: rgb(209, 250, 250);;
-    border: 2px solid black;
+    background-color: rgb(209, 250, 250);
+    margin-bottom: 20px;
+    border: 4px solid rgb(11, 221, 236);
     border-radius: 25px;
 }
 
-.box:hover
-{
+/* 
+.box:hover {
     width: 33%;
-}
-
-/* .box:hover img
-{
-    height: 285px;
-} */
+} 
+*/
 
 img {
     margin: auto;
@@ -130,4 +128,59 @@ h3 {
 
 a {
     text-decoration: none;
+}
+
+.element {
+    display: inline;
+    padding: 15px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 10%;
+    height: 10%;
+    background-color: rgb(189, 98, 98);
+    font-family: 'League Gothic', sans-serif;
+    font-size: 2em;
+    color: black;
+}
+
+.element:hover#pre {
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+    color: black;
+    background-color: rgb(209, 250, 250);
+    border: 4px solid black;
+}
+
+.element:hover#nex {
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+    color: black;
+    background-color: rgb(209, 250, 250);
+    border: 4px solid black
+}
+
+#pre {
+    float: left;
+    margin-left: 2%;
+    border: 4px solid rgb(110, 110, 110);
+}
+
+#nex {
+    margin-right: 2%;
+    float: right;
+    border: 4px solid rgb(110, 110, 110);
+}
+
+.end {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+    margin-bottom: 0px;
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    font-size: 1.3rem;
+    font-family: 'Fredoka', sans-serif;
+    clear: both;
 }

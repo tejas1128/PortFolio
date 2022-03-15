@@ -41,6 +41,7 @@ body {
 .active {
     color: white;
     background-color: black;
+    padding: 15px;
 }
 
 .nav {
@@ -55,4 +56,84 @@ body {
 li {
     list-style: none;
     margin: 0px;
+}
+
+h3 {
+    font-family: 'Fredoka', sans-serif;
+    color: rgb(66, 221, 221);
+    font-size: 2.3rem;
+    margin: 0px;
+    margin-top: 30px;
+}
+
+.writings {
+    display: flex;
+    flex-direction: column;
+    height: 18em;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    font-size: 6.0rem;
+    font-family: 'Fredoka', sans-serif;
+    color: rgb(67, 196, 196);
+    margin: 0px;
+}
+
+
+.element {
+    display: inline;
+    padding: 15px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 10%;
+    height: 10%;
+    background-color: rgb(189, 98, 98);
+    font-family: 'League Gothic', sans-serif;
+    font-size: 2em;
+    color: black;
+}
+
+.element:hover#pre {
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+    color: black;
+    background-color: rgb(209, 250, 250);
+    border: 4px solid black;
+}
+
+.element:hover#nex {
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+    color: black;
+    background-color: rgb(209, 250, 250);
+    border: 4px solid black
+}
+
+#pre {
+    float: left;
+    margin-left: 2%;
+    border: 4px solid rgb(110, 110, 110);
+}
+
+#nex {
+    margin-right: 2%;
+    float: right;
+    border: 4px solid rgb(110, 110, 110);
+}
+
+.end
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+    margin-bottom: 0px;
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    font-size: 1.3rem;
+    font-family: 'Fredoka', sans-serif;
+    clear: both;
 }
