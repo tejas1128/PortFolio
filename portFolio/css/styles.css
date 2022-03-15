@@ -5,6 +5,7 @@
 
 body {
     margin: 0px;
+    position: relative;
     background-color: rgb(231, 253, 253);
 }
 
@@ -39,12 +40,6 @@ body {
     border-radius: 9px;
 }
 
-p
-{
-    font-size: 1.4rem;
-    text-align: center;
-}
-
 .navlink:hover {
     color: white;
     background-color: rgb(70, 64, 64);
@@ -69,43 +64,55 @@ li {
     margin: 0px;
 }
 
-.container
-{
+p {
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.box
-{
+.box {
     width: 30%;
     box-sizing: border-box;
-    margin: 20px 35px;
+    margin: 10px 35px;
     padding: 20px;
+    background-color: rgb(209, 250, 250);;
     border: 2px solid black;
+    border-radius: 25px;
 }
 
-img
+.box:hover
 {
+    width: 33%;
+}
+
+/* .box:hover img
+{
+    height: 285px;
+} */
+
+img {
     margin: auto;
     width: 100%;
     height: 275px;
-    opacity: 1;
 }
 
-.boxtext
-{
+.boxtext {
     font-family: 'Fredoka', sans-serif;
     font-size: 1.6rem;
 }
 
-.imgcontent{
+.imgcontent {
     margin: 0px;
     margin-bottom: 10px;
 }
 
-h3
-{
+h3 {
     font-family: 'Fredoka', sans-serif;
     color: rgb(66, 221, 221);
     font-size: 2.3rem;
@@ -113,23 +120,14 @@ h3
     margin-top: 30px;
 }
 
-.foot
-{
-    font-size: 1rem;
-    margin: 0px;
+.writings {
+    display: flex;
+    flex-direction: column;
+    height: 18em;
+    align-items: center;
+    justify-content: center;
 }
 
-footer
-{
-    width: 100%;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    background-color: black;
-    color: white;
-}
-
-a
-{
+a {
     text-decoration: none;
 }
