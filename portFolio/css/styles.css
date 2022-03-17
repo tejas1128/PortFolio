@@ -40,15 +40,17 @@ body {
     border-radius: 9px;
 }
 
-.navlink:hover {
-    color: white;
-    background-color: black;
-}
-
 .active {
     color: black;
     background-color: white;
     padding: 15px;
+    border: 2px solid white
+}
+
+.navlink:hover {
+    color: white;
+    background-color: black;
+    border: 2px solid white;
 }
 
 .nav {
