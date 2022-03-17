@@ -169,38 +169,40 @@ a {
     margin-bottom: 3%;
     width: 10%;
     height: 10%;
-    background-color: rgb(189, 98, 98);
+    background-color: purple;
+    border: 4px solid white;
     font-family: 'League Gothic', sans-serif;
     font-size: 2em;
-    color: black;
+    color: white;
 }
 
-.element:hover#pre {
+.element:hover#pre{
     border-top-left-radius: 60px;
     border-bottom-left-radius: 60px;
+    /* padding: 5px; */
     color: black;
-    background-color: rgb(209, 250, 250);
+    background-color: white;
     border: 4px solid black;
 }
 
 .element:hover#nex {
     border-top-right-radius: 60px;
     border-bottom-right-radius: 60px;
+    /* padding: 5px; */
     color: black;
-    background-color: rgb(209, 250, 250);
-    border: 4px solid black
+    background-color: white;
+    border: 4px solid black;
 }
 
 #pre {
     float: left;
     margin-left: 2%;
-    border: 4px solid rgb(110, 110, 110);
 }
 
 #nex {
     margin-right: 2%;
     float: right;
-    border: 4px solid rgb(110, 110, 110);
+    /* border: 4px solid rgb(110, 110, 110); */
 }
 
 .end {
