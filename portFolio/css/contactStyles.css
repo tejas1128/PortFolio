@@ -51,8 +51,11 @@ body {
 }
 
 .navigation {
+    /* width: 100%; */
     margin-top: 0px;
     background-color: rgb(101, 1, 110);
+    /* position: fixed; */
+    /* top: 0; */
 }
 
 li {
@@ -82,7 +85,9 @@ h3 {
     font-size: 6.0rem;
     font-family: 'Fredoka', sans-serif;
     color: rgb(67, 196, 196);
-    margin: 0px;
+    margin: 0%;
+    /* margin-top: 15%; */
+    /* margin-bottom: 0; */
 }
 
 

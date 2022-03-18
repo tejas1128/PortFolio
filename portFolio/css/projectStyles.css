@@ -51,8 +51,11 @@ body {
 }
 
 .navigation {
+    /* width: 100%; */
     margin-top: 0px;
     background-color: rgb(101, 1, 110);
+    /* position: fixed; */
+    /* top: 0; */
 }
 
 li {
