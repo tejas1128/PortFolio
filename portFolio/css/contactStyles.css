@@ -44,6 +44,7 @@ body {
     color: white;
     background-color: black;
     border: 2px solid white;
+    transition-duration: .85s;
 }
 
 .nav {
@@ -62,8 +63,6 @@ li {
     list-style: none;
     margin: 0px;
 }
-
-
 
 h3 {
     font-family: 'Fredoka', sans-serif;
@@ -90,11 +89,6 @@ h3 {
     /* margin-bottom: 0; */
 }
 
-
-
-
-
-
 .element {
     display: inline;
     padding: 15px;
@@ -116,6 +110,7 @@ h3 {
     color: black;
     background-color: white;
     border: 4px solid black;
+    transition-duration: 0.5s;
 }
 
 .element:hover#nex {
@@ -125,6 +120,7 @@ h3 {
     color: black;
     background-color: white;
     border: 4px solid black;
+    transition-duration: 0.5s;
 }
 
 #pre {
@@ -139,6 +135,7 @@ h3 {
 }
 
 .end {
+    /* clear: both; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -152,4 +149,74 @@ h3 {
     /* position:fixed; */
     /* bottom: 0; */
     clear: both;
+}
+
+#contactForm
+{
+    /* clear: both; */
+    /* width: 100%; */
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    /* background-color: red; */
+}
+
+#contactForm input, #contactForm textarea
+{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+    background-color: rgb(157, 0, 172);
+    color: white;
+    font-weight: bold;
+}
+
+#contactForm form
+{
+    width: 35%;
+}
+
+.con{
+    font-family: 'Fredoka', sans-serif;
+    font-size: 1.5rem;
+    width: 100%;
+    margin: 0;
+}
+
+.contactElement
+{
+    margin-bottom: 4%;
+}
+
+#submit
+{
+    width: 100%;
+    /* background-color: red; */
+    align-items: center;
+}
+
+#submit button
+{
+    width: 100%;
+    align-items: center;
+    height: 50px;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 1.2rem;
+    background-color: rgb(67, 196, 196);
+    cursor: pointer;
+    border-radius: 50px;
+    padding: 10px;
+    border: 2px solid black;
+    background-image: linear-gradient(to bottom right, rgb(157, 0, 172), rgb(231, 253, 253));
+
+}
+
+#submit button:hover
+{
+    /* transition-delay: 2s; */
+    background-image: linear-gradient(to bottom right, rgb(231, 253, 253), rgb(157, 0, 172));
+
 }

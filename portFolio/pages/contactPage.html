@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,6 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/contactStyles.css">
 </head>
+
 <body>
     <div class="navigation">
         <div id="navigate">
@@ -27,7 +29,37 @@
 
     <div class="writings">
         <h1 class="main heading center">Want To Contact Me?</h1>
-        <h3 class="center">Fill The Below Form and We Will Reach Back To You</h3>
+        <h3 class="center">Fill The Below Form and I Will Reach Back To You</h3>
+    </div>
+
+    <div id="contactForm">
+        <form action="">
+            <div class="contactElement">
+                <p class="con center">Name:</p>
+                <!-- Name: -->
+                <input type="text" name="name" id="name">
+            </div>
+            <div class="contactElement">
+                <p class="con center">Email ID:</p>
+                <!-- Email ID: -->
+                <input type="email" name="email" id="email">
+            </div>
+            <div class="contactElement">
+                <p class="con center">Contact Number:</p>
+                <!-- Contact Number: -->
+                <input type="text" name="contact" id="contact">
+            </div>
+            <div class="contactElement">
+                <!-- More About Yourself -->
+                <p class="con center">More About Yourself:</p>
+                <!-- <input type="text" name="more" id="more"> -->
+                <textarea name="more" id="more" cols="30" rows="10"></textarea>
+            </div>
+
+            <div id="submit">
+            <button type="submit" value="Submit">Submit</button>
+            </div>
+        </form>
     </div>
 
     <div class="footer">
@@ -48,4 +80,5 @@
     </div>
 
 </body>
+
 </html>

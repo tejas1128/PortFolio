@@ -9,18 +9,6 @@ body {
     background-color: rgb(231, 253, 253);
 }
 
-.main {
-    font-size: 6.0rem;
-    font-family: 'Fredoka', sans-serif;
-    color: rgb(67, 196, 196);
-    margin: 0px;
-}
-
-.center {
-    width: 100%;
-    text-align: center;
-}
-
 #navitems {
     display: flex;
     align-items: center;
@@ -68,9 +56,24 @@ li {
     margin: 0px;
 }
 
-p {
-    font-size: 1.4rem;
-    margin: 0;
+.writings {
+    display: flex;
+    flex-direction: column;
+    height: 10em;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    font-size: 6.0rem;
+    font-family: 'Fredoka', sans-serif;
+    color: rgb(67, 196, 196);
+    margin: 0px;
+}
+
+.center {
+    width: 100%;
+    text-align: center;
 }
 
 .tejas
@@ -100,6 +103,21 @@ p {
     font-family: 'Fredoka', sans-serif;
     border: 4px solid rgb(11, 221, 236);
     font-size: 1.8rem;
+}
+
+p {
+    font-size: 1.4rem;
+    margin: 0;
+}
+
+h3 {
+    font-family: 'Fredoka', sans-serif;
+    color: rgb(66, 221, 221);
+    font-size: 2.3rem;
+    margin: 0px;
+    margin-bottom: 2%; 
+    margin-top: 6%;
+    /* margin-top: 50%; */
 }
 
 .container {
@@ -139,24 +157,6 @@ img {
 .imgcontent {
     margin: 0px;
     margin-bottom: 10px;
-}
-
-h3 {
-    font-family: 'Fredoka', sans-serif;
-    color: rgb(66, 221, 221);
-    font-size: 2.3rem;
-    margin: 0px;
-    margin-bottom: 2%; 
-    margin-top: 6%;
-    /* margin-top: 50%; */
-}
-
-.writings {
-    display: flex;
-    flex-direction: column;
-    height: 10em;
-    align-items: center;
-    justify-content: center;
 }
 
 a {

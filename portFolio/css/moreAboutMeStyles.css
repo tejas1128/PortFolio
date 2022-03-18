@@ -44,6 +44,7 @@ body {
     color: white;
     background-color: black;
     border: 2px solid white;
+    transition-duration: .85s;
 }
 
 .nav {
@@ -105,6 +106,7 @@ h3 {
     color: black;
     background-color: white;
     border: 4px solid black;
+    transition-duration: 0.5s;
 }
 
 .element:hover#nex {
@@ -114,6 +116,7 @@ h3 {
     color: black;
     background-color: white;
     border: 4px solid black;
+    transition-duration: 0.5s;
 }
 
 #pre {
